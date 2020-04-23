@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C72A0C32243922140061AC93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72A0C31243922140061AC93 /* AppDelegate.swift */; };
+		C72A0C34243922140061AC93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72A0C33243922140061AC93 /* SceneDelegate.swift */; };
+		C72A0C36243922140061AC93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72A0C35243922140061AC93 /* ViewController.swift */; };
+		C72A0C39243922140061AC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72A0C37243922140061AC93 /* Main.storyboard */; };
+		C72A0C3B2439221B0061AC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C72A0C3A2439221B0061AC93 /* Assets.xcassets */; };
+		C72A0C3E2439221B0061AC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72A0C3C2439221B0061AC93 /* LaunchScreen.storyboard */; };
+		C72A0C492439221B0061AC93 /* CerealTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72A0C482439221B0061AC93 /* CerealTrackerTests.swift */; };
+		C72A0C542439221B0061AC93 /* CerealTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72A0C532439221B0061AC93 /* CerealTrackerUITests.swift */; };
+		C72A0C62243952F20061AC93 /* CerealDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72A0C61243952F20061AC93 /* CerealDetailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C72A0C452439221B0061AC93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C72A0C26243922140061AC93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C72A0C2D243922140061AC93;
+			remoteInfo = CerealTracker;
+		};
+		C72A0C502439221B0061AC93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C72A0C26243922140061AC93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C72A0C2D243922140061AC93;
+			remoteInfo = CerealTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C72A0C2E243922140061AC93 /* CerealTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CerealTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72A0C31243922140061AC93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C72A0C33243922140061AC93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C72A0C35243922140061AC93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C72A0C38243922140061AC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C72A0C3A2439221B0061AC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C72A0C3D2439221B0061AC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C72A0C3F2439221B0061AC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C72A0C442439221B0061AC93 /* CerealTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CerealTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72A0C482439221B0061AC93 /* CerealTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerealTrackerTests.swift; sourceTree = "<group>"; };
+		C72A0C4A2439221B0061AC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C72A0C4F2439221B0061AC93 /* CerealTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CerealTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72A0C532439221B0061AC93 /* CerealTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerealTrackerUITests.swift; sourceTree = "<group>"; };
+		C72A0C552439221B0061AC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C72A0C61243952F20061AC93 /* CerealDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerealDetailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C72A0C2B243922140061AC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72A0C412439221B0061AC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72A0C4C2439221B0061AC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C72A0C25243922140061AC93 = {
+			isa = PBXGroup;
+			children = (
+				C72A0C30243922140061AC93 /* CerealTracker */,
+				C72A0C472439221B0061AC93 /* CerealTrackerTests */,
+				C72A0C522439221B0061AC93 /* CerealTrackerUITests */,
+				C72A0C2F243922140061AC93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C72A0C2F243922140061AC93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C72A0C2E243922140061AC93 /* CerealTracker.app */,
+				C72A0C442439221B0061AC93 /* CerealTrackerTests.xctest */,
+				C72A0C4F2439221B0061AC93 /* CerealTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C72A0C30243922140061AC93 /* CerealTracker */ = {
+			isa = PBXGroup;
+			children = (
+				C72A0C31243922140061AC93 /* AppDelegate.swift */,
+				C72A0C33243922140061AC93 /* SceneDelegate.swift */,
+				C72A0C35243922140061AC93 /* ViewController.swift */,
+				C72A0C61243952F20061AC93 /* CerealDetailVC.swift */,
+				C72A0C37243922140061AC93 /* Main.storyboard */,
+				C72A0C3A2439221B0061AC93 /* Assets.xcassets */,
+				C72A0C3C2439221B0061AC93 /* LaunchScreen.storyboard */,
+				C72A0C3F2439221B0061AC93 /* Info.plist */,
+			);
+			path = CerealTracker;
+			sourceTree = "<group>";
+		};
+		C72A0C472439221B0061AC93 /* CerealTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C72A0C482439221B0061AC93 /* CerealTrackerTests.swift */,
+				C72A0C4A2439221B0061AC93 /* Info.plist */,
+			);
+			path = CerealTrackerTests;
+			sourceTree = "<group>";
+		};
+		C72A0C522439221B0061AC93 /* CerealTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C72A0C532439221B0061AC93 /* CerealTrackerUITests.swift */,
+				C72A0C552439221B0061AC93 /* Info.plist */,
+			);
+			path = CerealTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C72A0C2D243922140061AC93 /* CerealTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C72A0C582439221B0061AC93 /* Build configuration list for PBXNativeTarget "CerealTracker" */;
+			buildPhases = (
+				C72A0C2A243922140061AC93 /* Sources */,
+				C72A0C2B243922140061AC93 /* Frameworks */,
+				C72A0C2C243922140061AC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CerealTracker;
+			productName = CerealTracker;
+			productReference = C72A0C2E243922140061AC93 /* CerealTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C72A0C432439221B0061AC93 /* CerealTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C72A0C5B2439221B0061AC93 /* Build configuration list for PBXNativeTarget "CerealTrackerTests" */;
+			buildPhases = (
+				C72A0C402439221B0061AC93 /* Sources */,
+				C72A0C412439221B0061AC93 /* Frameworks */,
+				C72A0C422439221B0061AC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C72A0C462439221B0061AC93 /* PBXTargetDependency */,
+			);
+			name = CerealTrackerTests;
+			productName = CerealTrackerTests;
+			productReference = C72A0C442439221B0061AC93 /* CerealTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C72A0C4E2439221B0061AC93 /* CerealTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C72A0C5E2439221B0061AC93 /* Build configuration list for PBXNativeTarget "CerealTrackerUITests" */;
+			buildPhases = (
+				C72A0C4B2439221B0061AC93 /* Sources */,
+				C72A0C4C2439221B0061AC93 /* Frameworks */,
+				C72A0C4D2439221B0061AC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C72A0C512439221B0061AC93 /* PBXTargetDependency */,
+			);
+			name = CerealTrackerUITests;
+			productName = CerealTrackerUITests;
+			productReference = C72A0C4F2439221B0061AC93 /* CerealTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C72A0C26243922140061AC93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Chika Ikpechukwu";
+				TargetAttributes = {
+					C72A0C2D243922140061AC93 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C72A0C432439221B0061AC93 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C72A0C2D243922140061AC93;
+					};
+					C72A0C4E2439221B0061AC93 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C72A0C2D243922140061AC93;
+					};
+				};
+			};
+			buildConfigurationList = C72A0C29243922140061AC93 /* Build configuration list for PBXProject "CerealTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C72A0C25243922140061AC93;
+			productRefGroup = C72A0C2F243922140061AC93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C72A0C2D243922140061AC93 /* CerealTracker */,
+				C72A0C432439221B0061AC93 /* CerealTrackerTests */,
+				C72A0C4E2439221B0061AC93 /* CerealTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C72A0C2C243922140061AC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72A0C3E2439221B0061AC93 /* LaunchScreen.storyboard in Resources */,
+				C72A0C3B2439221B0061AC93 /* Assets.xcassets in Resources */,
+				C72A0C39243922140061AC93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72A0C422439221B0061AC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72A0C4D2439221B0061AC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C72A0C2A243922140061AC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72A0C36243922140061AC93 /* ViewController.swift in Sources */,
+				C72A0C32243922140061AC93 /* AppDelegate.swift in Sources */,
+				C72A0C34243922140061AC93 /* SceneDelegate.swift in Sources */,
+				C72A0C62243952F20061AC93 /* CerealDetailVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72A0C402439221B0061AC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72A0C492439221B0061AC93 /* CerealTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72A0C4B2439221B0061AC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72A0C542439221B0061AC93 /* CerealTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C72A0C462439221B0061AC93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C72A0C2D243922140061AC93 /* CerealTracker */;
+			targetProxy = C72A0C452439221B0061AC93 /* PBXContainerItemProxy */;
+		};
+		C72A0C512439221B0061AC93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C72A0C2D243922140061AC93 /* CerealTracker */;
+			targetProxy = C72A0C502439221B0061AC93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C72A0C37243922140061AC93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C72A0C38243922140061AC93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C72A0C3C2439221B0061AC93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C72A0C3D2439221B0061AC93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C72A0C562439221B0061AC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C72A0C572439221B0061AC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C72A0C592439221B0061AC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CerealTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.cikpechu.CerealTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C72A0C5A2439221B0061AC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CerealTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.cikpechu.CerealTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C72A0C5C2439221B0061AC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CerealTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.cikpechu.CerealTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CerealTracker.app/CerealTracker";
+			};
+			name = Debug;
+		};
+		C72A0C5D2439221B0061AC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CerealTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.cikpechu.CerealTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CerealTracker.app/CerealTracker";
+			};
+			name = Release;
+		};
+		C72A0C5F2439221B0061AC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CerealTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.cikpechu.CerealTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CerealTracker;
+			};
+			name = Debug;
+		};
+		C72A0C602439221B0061AC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CerealTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.cikpechu.CerealTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CerealTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C72A0C29243922140061AC93 /* Build configuration list for PBXProject "CerealTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72A0C562439221B0061AC93 /* Debug */,
+				C72A0C572439221B0061AC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C72A0C582439221B0061AC93 /* Build configuration list for PBXNativeTarget "CerealTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72A0C592439221B0061AC93 /* Debug */,
+				C72A0C5A2439221B0061AC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C72A0C5B2439221B0061AC93 /* Build configuration list for PBXNativeTarget "CerealTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72A0C5C2439221B0061AC93 /* Debug */,
+				C72A0C5D2439221B0061AC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C72A0C5E2439221B0061AC93 /* Build configuration list for PBXNativeTarget "CerealTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72A0C5F2439221B0061AC93 /* Debug */,
+				C72A0C602439221B0061AC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C72A0C26243922140061AC93 /* Project object */;
+}
